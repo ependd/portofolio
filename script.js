@@ -73,23 +73,31 @@
       // informasi proyek
       c: ["web"],
       i: "monitoring.svg",
-      t: "Monitoring dana BOS dengan deteksi anomali",
+      t: "Monitoring penggunaan dana BOS",
       m: "Skripsi, SMPN 40 Kota Bekasi, 2026",
       tags: ["Web", "Data"],
-      stack: ["Excel", "Data Studio / Looker Studio"],
+      stack: ["Laravel", "Naive Bayes", "Whale Optimization Algorithm"],
 
       // link portofolio
-      demo: "https://lookerstudio.google.com/",
-      github: "https://github.com/username/dashboard-sales",
+
+      github: "https://github.com/ependd/dana_bos",
 
       // summary projek
       masalah:
-        "Penggunaan dana BOS perlu dipantau per pos belanja, dan pengeluaran yang tidak wajar sulit terlihat jika hanya dibaca dari laporan biasa.",
+        "Laporan keuangan di ARKAS tidak bisa dilihat kembali setelah disubmit. Hal ini menyulitkan saat audit apabila bendahara tidak membuat catatan tersendiri. Selain itu, penentuan barang yang layak diajukan masih subjektif, dan pengajuan kebutuhan oleh guru dan staf tata usaha masih dilakukan secara konvensional.",
       solusi:
-        "Aplikasi web untuk mencatat dan memantau realisasi dana, dengan penanda otomatis pada transaksi yang menyimpang dari pola.",
+        "Sistem pendamping ARKAS berbasis web. Sebelum dimasukkan ke ARKAS, setiap permohonan diuji dengan algoritma Naive Bayes yang dioptimasi menggunakan Whale Optimization Algorithm, dengan data latih dari data historis beberapa tahun terakhir. Hasil pengujiannya mengklasifikasikan permohonan sebagai wajar atau menyimpang. Setiap guru dan staf tata usaha memiliki akun sendiri untuk mengajukan kebutuhan, sehingga riwayat pengajuan tercatat dan bisa ditelusuri saat audit.",
       peran:
-        "Analisis kebutuhan, perancangan basis data, pembuatan aplikasi, dan pengujian bersama pihak sekolah.",
-      hasil: null,
+        "Menganalisis kebutuhan, merancang aplikasi dan basis data, serta melakukan pengujian bersama bendahara.",
+      hasil: {
+        teks: "Sistem berhasil mengklasifikasikan permohonan kebutuhan dengan akurasi 91,76% setelah dioptimasi, naik dari 86,67% pada Naive Bayes tanpa optimasi. Pengujian memakai 150 data dengan validasi silang 5 lipatan. Temuan utamanya:",
+        poin: [
+          "Pada pengujian akhir, Whale Optimization Algorithm memilih 5 fitur yang paling berpengaruh dan menyisihkan 2 fitur yang kurang relevan, sehingga model menjadi lebih sederhana dan akurat. Fitur terpilih dapat berbeda pada setiap proses pelatihan karena WOA bersifat stokastik dan bergantung pada data.",
+          "Guru dan staf tata usaha kini mengajukan kebutuhan secara digital melalui akun masing-masing, tanpa pengajuan manual, dan dapat memantau status pengajuannya.",
+          "Bendahara memiliki bahan acuan yang objektif saat memasukkan kebutuhan ke ARKAS.",
+          "Seluruh pengajuan tercatat per akun, sehingga bendahara memiliki riwayat yang dapat ditunjukkan saat audit.",
+        ],
+      },
     },
 
     {
