@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Ahmad Yusup Ependi Marsalih – Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="i-folder" viewBox="0 0 32 32">
+        <path
+          d="M2 8h10l3 3h15v17H2z"
+          fill="#9A5416"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M2 13h28v15H2z"
+          fill="#E09A3A"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <path d="M4 15h24" stroke="#F3C26E" stroke-width="1.5" />
+      </symbol>
+      <symbol id="i-doc" viewBox="0 0 32 32">
+        <path
+          d="M7 3h14l6 6v20H7z"
+          fill="#FFFCF3"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M21 3v6h6"
+          fill="#E9E0C6"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M11 14h12M11 18h12M11 22h8"
+          stroke="#8A8576"
+          stroke-width="1.5"
+        />
+      </symbol>
+      <symbol id="i-pdf" viewBox="0 0 32 32">
+        <path
+          d="M7 3h14l6 6v20H7z"
+          fill="#FFFCF3"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M21 3v6h6"
+          fill="#E9E0C6"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <rect
+          x="3"
+          y="14"
+          width="16"
+          height="9"
+          fill="#5E7A3A"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+        />
+        <path d="M22 20h2M22 24h2" stroke="#8A8576" stroke-width="1.5" />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 32 32">
+        <rect
+          x="2"
+          y="7"
+          width="28"
+          height="19"
+          fill="#FFFCF3"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M2 7l14 11L30 7z"
+          fill="#E9E0C6"
+          stroke="#1A1A1A"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+      </symbol>
+    </svg>
+
+    <div class="bar">
+      <b class="brand"
+        ><i class="logo" aria-hidden="true"></i>Ahmad Yusup Ependi Marsalih</b
+      ><span class="role">Data Analyst dan Web Developer</span
+      ><span class="avail">Available for Work</span>
+    </div>
+
+    <nav class="icons" aria-label="Desktop">
+      <button class="ico" data-open="proyek">
+        <svg class="pi" aria-hidden="true"><use href="#i-folder" /></svg>Proyek
+      </button>
+      <button class="ico" data-open="tentang">
+        <svg class="pi" aria-hidden="true"><use href="#i-doc" /></svg>Tentang
+      </button>
+      <button class="ico" data-open="cv">
+        <svg class="pi" aria-hidden="true"><use href="#i-pdf" /></svg>CV.pdf
+      </button>
+      <button class="ico" data-open="kontak">
+        <svg class="pi" aria-hidden="true"><use href="#i-mail" /></svg>Hubungi
+      </button>
+    </nav>
+
+    <div class="stack">
+      <aside class="note" aria-label="Catatan">
+        <div class="f">SEKARANG.txt</div>
+        <div class="d" id="tgl"></div>
+        <p>Menyempurnakan karya dan portofolio.</p>
+        <dl>
+          <dt>Membaca:</dt>
+          <dd><span>Dari Penjara ke Penjara</span></dd>
+          <dt>Belajar:</dt>
+          <dd><span>Pitch Deck</span></dd>
+          <dt>Mendengar:</dt>
+          <dd>
+            <span>The Man Who Can't Be Moved - The Script</span>
+          </dd>
+        </dl>
+      </aside>
+
+      <figure class="photo" aria-label="Foto Pendi">
+        <img
+          src="img/foto.jpg"
+          alt="Foto Pendi"
+          onerror="this.closest('.photo').classList.add('empty')"
+        />
+        <div class="ph">Taruh foto di img/foto.jpg</div>
+        <figcaption>pendi.jpg</figcaption>
+      </figure>
+    </div>
+
+    <div class="hero">
+      <div class="k">PORTOFOLIO / 2026</div>
+      <h2>Ahmad Yusup Ependi Marsalih</h2>
+      <p>Data Analyst dan Web developer, dari Bekasi</p>
+    </div>
+
+    <!-- PROYEK -->
+    <section class="win" id="w-proyek" hidden aria-label="Proyek">
+      <div class="tb">
+        <span class="t">proyek/</span><span class="s"></span
+        ><button data-min aria-label="Kecilkan">–</button
+        ><button data-close aria-label="Tutup">×</button>
+      </div>
+      <div class="pbar" id="proyekBar" hidden></div>
+      <div class="bd" id="proyekBody"></div>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="win" id="w-tentang" hidden aria-label="Tentang saya">
+      <div class="tb">
+        <span class="t">tentang-saya.txt</span><span class="s"></span
+        ><button data-min aria-label="Kecilkan">–</button
+        ><button data-close aria-label="Tutup">×</button>
+      </div>
+      <div class="bd">
+        <h2>Halo, saya Pendi.</h2>
+        <p class="hint">Fresh Graduate Sistem Informasi, Bekasi</p>
+        <p class="about-description">
+          Saya mengembangkan aplikasi web, menganalisis sistem, dan mengolah
+          data untuk menghasilkan solusi yang sesuai dengan kebutuhan pengguna.
+          Saya senang memahami proses bisnis, menemukan pola dari data, dan
+          menerjemahkan kebutuhan menjadi solusi digital yang efektif.
+        </p>
+        <div class="grid2">
+          <div><small>SEKARANG</small>Fresh Graduate Sistem Informasi</div>
+          <div><small>MENCARI</small>Magang/Kerja dan posisi entry-level</div>
+          <div><small>FOKUS</small>Web, analisis sistem, data</div>
+          <div>
+            <small>LOKASI</small>Bekasi · Terbuka untuk bekerja di luar kota
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn" data-open="proyek">Lihat proyek</button
+          ><button class="btn o" data-open="kontak">Hubungi saya</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section class="win" id="w-cv" hidden aria-label="CV">
+      <div class="tb">
+        <span class="t">CV.pdf</span><span class="s"></span
+        ><button data-min aria-label="Kecilkan">–</button
+        ><button data-close aria-label="Tutup">×</button>
+      </div>
+      <div class="bd">
+        <div class="cv">
+          <h2>Pendi</h2>
+          <div class="sub">
+            <span>Web developer dan analis sistem, Bekasi</span
+            ><span class="todo">email@contoh.com</span>
+          </div>
+          <h4>PENDIDIKAN</h4>
+          <div class="e">
+            <span
+              >S1 Sistem Informasi,
+              <span class="todo">nama universitas</span></span
+            ><span class="todo">2022–sekarang</span>
+          </div>
+          <p>Skripsi: sistem monitoring dana BOS dengan deteksi anomali.</p>
+          <h4>PENGALAMAN PROYEK</h4>
+          <div class="e">
+            <span>Monitoring dana BOS, SMPN 40 Kota Bekasi</span
+            ><span>2026</span>
+          </div>
+          <p><span class="todo">Satu kalimat hasil yang terukur.</span></p>
+          <div class="e">
+            <span>POS dan inventori, Cafe Block Barat Coffee</span
+            ><span class="todo">tahun</span>
+          </div>
+          <p><span class="todo">Satu kalimat hasil yang terukur.</span></p>
+          <h4>SKILL</h4>
+          <p>
+            Laravel, PHP, MySQL, JavaScript, Filament, RapidMiner, SPSS, UML dan
+            ERD.
+          </p>
+        </div>
+        <div class="row">
+          <a class="btn" href="#" download>Unduh CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="win" id="w-kontak" hidden aria-label="Kontak">
+      <div class="tb">
+        <span class="t">pesan-baru.eml</span><span class="s"></span
+        ><button data-min aria-label="Kecilkan">–</button
+        ><button data-close aria-label="Tutup">×</button>
+      </div>
+      <div class="bd">
+        <h2>Mari bicara.</h2>
+        <p>
+          Saya mencari magang dan posisi entry-level. Biasanya saya balas dalam
+          <span>sehari</span>.
+        </p>
+        <form id="mailForm">
+          <input
+            type="hidden"
+            name="access_key"
+            value="34dd86e7-4c1f-4724-bab7-4871fe40e1c8"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="Pesan baru dari portofolio"
+          />
+          <input type="hidden" name="from_name" value="Portofolio Pendi" />
+          <input
+            type="checkbox"
+            name="botcheck"
+            style="display: none"
+            tabindex="-1"
+          />
+          <label for="n">NAMA</label>
+          <input id="n" name="name" autocomplete="name" required />
+          <label for="e">EMAIL KAMU</label>
+          <input
+            id="e"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          />
+          <label for="m">PESAN</label>
+          <textarea
+            id="m"
+            name="message"
+            required
+            placeholder="Halo Pendi, kami membuka lowongan magang data analyst…"
+          ></textarea>
+          <button class="send" type="submit">Kirim pesan</button>
+          <p
+            class="hint"
+            id="formMsg"
+            role="status"
+            style="margin-top: 10px"
+          ></p>
+          <p class="hint">
+            Tautan lain:
+            <a
+              href="https://www.linkedin.com/in/ahmad-yusup-ependi-marsalih"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >,
+            <a href="https://github.com/ependd/" target="_blank" rel="noopener"
+              >GitHub</a
+            >.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <section
+      class="win"
+      id="w-sertifikat"
+      hidden
+      aria-label="Sertifikat dan pelatihan"
+    >
+      <div class="tb">
+        <span class="t">sertifikat/</span><span class="s"></span
+        ><button data-min aria-label="Kecilkan">–</button
+        ><button data-close aria-label="Tutup">×</button>
+      </div>
+      <div class="bd cs">
+        <h2>Sertifikat dan pelatihan</h2>
+        <p class="hint"></p>
+        <h3>SERTIFIKAT</h3>
+        <div class="cert">
+          <svg class="pi" aria-hidden="true"><use href="#i-pdf" /></svg>
+          <div>
+            <b>Machine Learning</b><span>Komdigi, <span>2025</span></span>
+          </div>
+          <a
+            href="sertifikat/machine_learning.pdf"
+            target="_blank"
+            rel="noopener"
+            >Lihat</a
+          >
+        </div>
+        <div class="cert">
+          <svg class="pi" aria-hidden="true"><use href="#i-pdf" /></svg>
+          <div>
+            <b>Analisis Data</b><span>Komdigi, <span>2025</span></span>
+          </div>
+          <a href="sertifikat/data_analyst.pdf" target="_blank" rel="noopener"
+            >Lihat</a
+          >
+        </div>
+        <div class="cert">
+          <svg class="pi" aria-hidden="true"><use href="#i-pdf" /></svg>
+          <div>
+            <b>Business Intelligence</b><span>Komdigi, <span>2025</span></span>
+          </div>
+          <a
+            href="sertifikat/business_intelligence.pdf"
+            target="_blank"
+            rel="noopener"
+            >Lihat</a
+          >
+        </div>
+        <div class="cert">
+          <svg class="pi" aria-hidden="true"><use href="#i-pdf" /></svg>
+          <div>
+            <b>SQL for Data Analyst</b><span>Udemy, <span>2025</span></span>
+          </div>
+          <a href="sertifikat/sql_for_da.pdf" target="_blank" rel="noopener"
+            >Lihat</a
+          >
+        </div>
+        <h3>PELATIHAN DAN PENGALAMAN</h3>
+        <div class="cert">
+          <svg class="pi" aria-hidden="true"><use href="#i-doc" /></svg>
+          <div>
+            <b>Magang mengajar</b
+            ><span>SMP Negeri 40 Kota Bekasi, <span>2026</span></span>
+          </div>
+        </div>
+        <div class="cert">
+          <svg class="pi" aria-hidden="true"><use href="#i-doc" /></svg>
+          <div>
+            <b>Magang mengajar</b
+            ><span>SMP Negeri 2 Tarumajaya, <span>2025</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="dock" aria-label="Menu utama">
+      <button data-open="tentang" aria-pressed="false">
+        <span class="ic">◐</span>Pendi
+      </button>
+      <hr />
+      <button data-open="proyek" aria-pressed="false">Proyek</button>
+      <button data-open="sertifikat" aria-pressed="false">Sertifikat</button>
+      <button data-open="cv" aria-pressed="false">CV</button>
+      <button data-open="kontak" aria-pressed="false">Kontak</button>
+      <span class="clk" id="clk">--:--:--</span>
+    </nav>
+
+    <div id="boot" role="status">
+      <div class="in">
+        <div class="w">SELAMAT DATANG DI</div>
+        <h3>Ahmad Yusup Ependi Marsalih</h3>
+        <div class="pb"><i id="pbar"></i></div>
+        <div class="st">
+          <span id="pmsg">Menyusun jendela…</span><span id="ppct">0%</span>
+        </div>
+      </div>
+      <div class="sk">TEKAN TOMBOL APA SAJA UNTUK MELEWATI</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
