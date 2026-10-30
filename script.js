@@ -25,17 +25,17 @@
 
       // summary projek
       masalah:
-        "Data transaksi penjualan 2024-202 tersimpan dalam tabel mentah, sehingga sulit melihat performa penjualan, profit, dan produk unggulan tanpa rekap manual.",
+        "Data transaksi penjualan 2024-2025 tersimpan dalam tabel mentah, sehingga sulit melihat performa penjualan, profit, dan produk unggulan tanpa rekap manual.",
       solusi:
-        "Dashboard interaktif yang merangkum penjualan, profit, dan volume produk dalam satu halaman. Tersedia filter tahun, bulan, jenis penjualan, dan metode pembayaran, serta visualisasi tren bulanan, kontribusi kategori, dan 10 produk terlaris.",
+        "Dashboard interaktif yang merangkum penjualan, profit, dan volume produk dalam satu halaman. Tersedia filter tahun, bulan, jenis penjualan, dan metode pembayaran, serta visualisasi tren bulanan, kontribusi kategori, dan 5 produk terlaris.",
       peran:
         "Menghitung metrik dengan calculated field, merancang visualisasi, dan membangun dashboard.",
       hasil: {
-        teks: "Dashboard merangkum penjualan sebesar Rp750,5 juta dengan profit Rp143,6 juta (margin 19%) dari 64.568 produk terjual. Temuan utamanya:",
+        teks: "Dashboard merangkum penjualan sebesar Rp750,5 juta dengan profit Rp143,6 juta dari 64.568 produk terjual. Temuan utamanya:",
         poin: [
           "Penjualan naik sekitar 54% dari Rp295,9 juta (2021) menjadi Rp454,6 juta (2022).",
-          "Perawatan Tubuh menjadi kategori terkuat dengan kontribusi 36% (Rp272,6 juta).",
-          "Grosir memberi kontribusi terbesar (39%), diikuti Online (36%) dan Eceran (25%).",
+          "Minuman menjadi kategori terkuat dengan kontribusi 36% (Rp272,6 juta).",
+          "Grosir memberi kontribusi terbesar (41,7%), diikuti Online (39,8%) dan Eceran (18,6%).",
           "Pembayaran didominasi tunai (85%).",
         ],
       },
