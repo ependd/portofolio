@@ -99,28 +99,6 @@
         ],
       },
     },
-
-    {
-      // informasi proyek
-      c: ["web"],
-      i: "kesehatan.svg",
-      t: "Website puskesmas dengan panel admin",
-      m: "Laravel 12 dan Filament, 2026",
-      tags: ["Web"],
-      stack: ["Excel", "Data Studio / Looker Studio"],
-
-      // link portofolio
-      demo: "https://lookerstudio.google.com/",
-      github: "https://github.com/username/dashboard-sales",
-
-      // summary projek
-      masalah:
-        "Informasi layanan puskesmas perlu mudah ditemukan warga, dan petugas perlu cara sederhana untuk memperbarui isinya.",
-      solusi:
-        "Situs publik untuk pengunjung dan panel admin Filament agar petugas mengelola konten tanpa menyentuh kode.",
-      peran: null,
-      hasil: null,
-    },
   ];
   var todo = function (t) {
     return '<span class="todo">' + t + "</span>";
