@@ -33,7 +33,7 @@
       hasil: {
         teks: "Dashboard merangkum penjualan sebesar Rp750,5 juta dengan profit Rp143,6 juta dari 64.568 produk terjual. Temuan utamanya:",
         poin: [
-          "Penjualan naik sekitar 54% dari Rp295,9 juta (2021) menjadi Rp454,6 juta (2022).",
+          "Penjualan naik sekitar 54% dari Rp295,9 juta (2024) menjadi Rp454,6 juta (2025).",
           "Minuman menjadi kategori terkuat dengan kontribusi 36% (Rp272,6 juta).",
           "Grosir memberi kontribusi terbesar (41,7%), diikuti Online (39,8%) dan Eceran (18,6%).",
           "Pembayaran didominasi tunai (85%).",
