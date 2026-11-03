@@ -76,7 +76,7 @@
       t: "Dashboard Covid-19 Indonesia",
       m: "Proyek Pribadi, Covid 19 Indonesia, 2024",
       tags: ["Data"],
-      stack: ["Excel", "Tableau"],
+      stack: ["PostgreSQL", "Tableau"],
 
       // link portofolio
       demo: "https://public.tableau.com/views/covid19inindonesia_17525828092630/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
@@ -87,7 +87,7 @@
       solusi:
         "Saya membangun dashboard interaktif di Tableau Public yang merangkum kasus, kesembuhan, dan kematian per provinsi untuk periode Maret 2020 sampai September 2022. Pengguna bisa memfilter berdasarkan tahun dan pulau, lalu melihat empat indikator utama (total kasus, total sembuh, total kematian, dan Case Fatality Rate), peta sebaran kasus per provinsi, tren kasus bulanan, serta peringkat 5 provinsi dengan kesembuhan dan kematian tertinggi.",
       peran:
-        "Saya mengerjakan proyek ini secara mandiri, mulai dari [pembersihan dan penyiapan data di Excel], perhitungan indikator seperti CFR, sampai perancangan dan publikasi dashboard di Tableau Public.",
+        "Saya mengerjakan proyek ini secara mandiri, mulai dari pembersihan dan penyiapan data dengan SQL, perhitungan indikator seperti CFR, sampai perancangan dan publikasi dashboard di Tableau Public.",
       hasil: {
         teks: "Dashboard merangkum 6.397.309 kasus COVID-19 di Indonesia sepanjang 2020-2022, dengan 6.204.553 pasien sembuh dan 157.819 meninggal. Temuan utamanya:",
         poin: [
