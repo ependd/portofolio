@@ -70,6 +70,36 @@
       },
     },
     {
+      // informasi projek
+      c: ["data"],
+      i: "kesehatan.svg",
+      t: "Dashboard Covid-19 Indonesia",
+      m: "Proyek Pribadi, Covid 19 Indonesia, 2024",
+      tags: ["Data"],
+      stack: ["Excel", "Tableau"],
+
+      // link portofolio
+      demo: "https://public.tableau.com/views/covid19inindonesia_17525828092630/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+
+      // summary projek
+      masalah:
+        "Data COVID-19 Indonesia tersebar di banyak provinsi dan periode, sehingga sulit melihat persebaran kasus, membandingkan kondisi antarprovinsi, dan mengenali tren dari waktu ke waktu tanpa visualisasi yang terstruktur.",
+      solusi:
+        "Saya membangun dashboard interaktif di Tableau Public yang merangkum kasus, kesembuhan, dan kematian per provinsi untuk periode Maret 2020 sampai September 2022. Pengguna bisa memfilter berdasarkan tahun dan pulau, lalu melihat empat indikator utama (total kasus, total sembuh, total kematian, dan Case Fatality Rate), peta sebaran kasus per provinsi, tren kasus bulanan, serta peringkat 5 provinsi dengan kesembuhan dan kematian tertinggi.",
+      peran:
+        "Saya mengerjakan proyek ini secara mandiri, mulai dari [pembersihan dan penyiapan data di Excel], perhitungan indikator seperti CFR, sampai perancangan dan publikasi dashboard di Tableau Public.",
+      hasil: {
+        teks: "Dashboard merangkum 6.397.309 kasus COVID-19 di Indonesia sepanjang 2020-2022, dengan 6.204.553 pasien sembuh dan 157.819 meninggal. Temuan utamanya:",
+        poin: [
+          "Tingkat kesembuhan mencapai sekitar 97%, dengan Case Fatality Rate 2,47%.",
+          "Kasus terkonsentrasi di Pulau Jawa: seluruh provinsi di Top 5 kesembuhan dan Top 5 kematian berada di Jawa.",
+          "Jawa Barat tercatat sebagai provinsi dengan kasus tertinggi sebanyak 1.173.731",
+          "DKI Jakarta mencatat kesembuhan tertinggi 1.386.059, sedangkan kematian tertinggi ada di Jawa Tengah 33.480.",
+          "Kasus mengalami dua gelombang puncak: Juli 2021 dengan 1.225.732 kasus dalam sebulan, dan awal 2022 dengan tinggi yang hampir sama.",
+        ],
+      },
+    },
+    {
       // informasi proyek
       c: ["web"],
       i: "monitoring.svg",
